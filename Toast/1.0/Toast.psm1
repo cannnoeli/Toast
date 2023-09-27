@@ -149,10 +149,10 @@ function Pop-ToastNotification{
 
     #The LauncherID defines the name of the app that calls the toast notification and appears on the top of the toast - the app must be registered in the registry beforehand - please see wiki for more info
         [Parameter(Mandatory)]
-        [string]$launcherID = $null,
+        [string]$launcherID = $null
     )
 
-    if ($launcherID == $null) {
+    if ($launcherID -eq $null) {
         return "Missing required argument '-launcherID'"
     }
 
