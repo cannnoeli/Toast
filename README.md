@@ -5,7 +5,7 @@ Introduction
 ============
 Toast is a PowerShell module that allows you to create, save and pop toast notifications on Windows devices that support them. Toast notifications are those that pop up in the corner, by the Windows taskbar:
 
-![image](https://github.com/cannnoeli/Toast/assets/81331851/323b7797-1774-4828-8744-0c76f44347f7)
+<img alt="image" src="https://github.com/cannnoeli/Toast/assets/81331851/fb921354-21ef-44ad-9fb1-20671aa88213">
 
 I was influenced by the [BurntToast](https://github.com/Windos/BurntToast) module, and decided to create this module to get a better understanding of how toast notifications work.
 
