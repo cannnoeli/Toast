@@ -128,9 +128,12 @@ Pop-ToastNotification
 Pops the toast notification, either from the piped output of New-ToastNotification or an XML file.
 
 <h4>Syntax</h4>
-<code>Pop-ToastNotification</code> <code>-File &lt;String&gt;</code>
+<code>Pop-ToastNotification</code> <code>-File &lt;String&gt;</code> <code>-launcherID &lt;String&gt;</code>
 
 <h4>Parameters</h4>
 
 <code>-File &lt;String&gt;</code>  
 Specifies the XML file from which to load the toast notification parameters
+
+<code>-launcherID &lt;String&gt;</code>  
+Specifies the name of the application that popped the notification - use the name of the registry key that was set up in the prerequisites
